@@ -1,0 +1,101 @@
+{
+  "profile": {
+    "name": "LifeOS",
+    "owner": "我的个人宇宙",
+    "mark": "L"
+  },
+  "today": {
+    "date": "2026-11-04",
+    "label": "11 月 4 日 · 星期三",
+    "title": "你的经历，正在汇聚成一片宇宙。",
+    "subtitle": "每一次记录、训练、学习和复盘，都会成为新的星点与连接。"
+  },
+  "metrics": [
+    { "label": "有效记录", "value": "186", "detail": "本月累积" },
+    { "label": "知识连接", "value": "48", "detail": "正在形成" },
+    { "label": "平均睡眠", "value": "7.1 h", "detail": "近 30 天" },
+    { "label": "连续轨迹", "value": "14 天", "detail": "从 10 月 22 日" }
+  ],
+  "domains": [
+    {
+      "id": "learning",
+      "label": "学习",
+      "subtitle": "AI 应用 · RAG · Agent",
+      "color": "#a58cff",
+      "value": "+23%",
+      "metric": "最近 14 天",
+      "summary": "Dify 与 RAG 是当前增长最快的主题，已经开始形成稳定的知识轨迹。",
+      "position": [2.65, 1.55, 0.65]
+    },
+    {
+      "id": "work",
+      "label": "工作",
+      "subtitle": "Dify · 工程项目",
+      "color": "#ffc568",
+      "value": "74%",
+      "metric": "项目稳定度",
+      "summary": "项目推进稳定，今天的检索排查正在形成一条可复用的工程经验。",
+      "position": [2.35, -1.45, -0.3]
+    },
+    {
+      "id": "body",
+      "label": "身体",
+      "subtitle": "睡眠 · 运动 · 恢复",
+      "color": "#56ead5",
+      "value": "3.6×",
+      "metric": "每周训练",
+      "summary": "力量训练连续三周，睡眠正在恢复，身体状态比上个月更稳定。",
+      "position": [-2.6, -1.5, 0.78]
+    },
+    {
+      "id": "mind",
+      "label": "认知",
+      "subtitle": "复盘 · 决策 · 情绪",
+      "color": "#ff78b3",
+      "value": "2 条",
+      "metric": "今日洞察",
+      "summary": "今天捕捉到两个决策偏差，适合在周复盘时整理成长期卡片。",
+      "position": [-2.45, 1.3, -0.72]
+    },
+    {
+      "id": "life",
+      "label": "生活",
+      "subtitle": "散步 · 灵感 · 日常",
+      "color": "#71bdff",
+      "value": "18 min",
+      "metric": "今日散步",
+      "summary": "散步时出现了新的系统结构，这段生活轨迹已经与学习领域产生连接。",
+      "position": [0.2, -2.75, 0.62]
+    },
+    {
+      "id": "future",
+      "label": "未来",
+      "subtitle": "愿景 · 选择 · 方向",
+      "color": "#e0d8ff",
+      "value": "6 个",
+      "metric": "长期方向",
+      "summary": "长期愿景还处在成形阶段，适合每两周留下一次方向变化。",
+      "position": [-0.35, 2.65, 0.3]
+    }
+  ],
+  "events": [
+    {
+      "time": "08:10",
+      "domain": "body",
+      "title": "睡眠恢复到 7 小时以上",
+      "detail": "晨间精神和专注度比昨天更好。"
+    },
+    {
+      "time": "10:30",
+      "domain": "learning",
+      "title": "发现 Dify 检索的数据契约问题",
+      "detail": "知识库名称被误当作 UUID，接口返回 404。"
+    },
+    {
+      "time": "16:20",
+      "domain": "life",
+      "title": "散步时出现新的系统灵感",
+      "detail": "应用、资料与视图应该彼此解耦。"
+    }
+  ]
+}

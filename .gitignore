@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.DS_Store
+**/.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+.vite/
+
+# 界面产物
+frontend/dist/
+# 由笔记导入生成，含个人内容
+frontend/src/data/my-data.js
+
+# vault 运行时状态：随使用不断变化，不属于资料
+vault/.local/
+vault/.chats/
+vault/.operations/
+vault/.activity-stats.json
+vault/.external-activity.json
+
+# 本地模型与运行时
+models/
+runtime/
