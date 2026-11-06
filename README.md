@@ -2,12 +2,14 @@
 
 **AI 梦幻工作台 · 本地优先的个人知识库可视化面板**
 
+> **v0.3.0 · 第三版**。沿革：v0.1 本地语音对话 → [v0.2 展示版 lifeos-local-showcase](https://github.com/okeya24/lifeos-local-showcase) → 本版：神经网络面板 + 笔记蒸馏 + 进度统计。
+
 把你的 Markdown 笔记变成一张会呼吸的神经网络：中心一颗光球，五只发光的水母代表作品库、概念网络、方法库、选题池和创作台，触须连到每一篇内容；配一个能读懂这些笔记的本地大模型。
 
 数据全程留在你自己的电脑上，不需要账号，不联网也能跑。
 
 <p>
-<img alt="LifeOS Local 神经网络工作台" src="docs/assets/preview-home.png" width="100%">
+<img alt="LifeOS Local 神经网络工作台：光球、水母与双向链接" src="docs/assets/dashboard-home.jpg" width="100%">
 </p>
 
 [![License: MIT](https://img.shields.io/badge/code-MIT-2ea44f)](LICENSE)
@@ -41,6 +43,17 @@
 - **进度与成长面板**：记录量、连续天数、身体与学习轨迹，数据来自真实笔记，不是填表。
 - **资料管理**：正文搜索、Markdown 编辑、归档，保存前留版本。
 - **中英双语**，尊重系统「减少动态效果」设置。
+
+<table>
+<tr>
+<td width="50%"><img alt="作品库：卡片与排序" src="docs/assets/dashboard-works.jpg"><br><sub>作品库 · 每篇内容的指标与双向连接</sub></td>
+<td width="50%"><img alt="创作台：Markdown 编辑与双链补全" src="docs/assets/dashboard-drafts.jpg"><br><sub>创作台 · 写草稿时实时解析 [[双链]]</sub></td>
+</tr>
+<tr>
+<td width="50%"><img alt="选题池：待写、待展开、已转草稿" src="docs/assets/dashboard-ideas.jpg"><br><sub>选题池 · 想法按状态分组</sub></td>
+<td width="50%"><img alt="方法库：触须展开到每一篇笔记" src="docs/assets/dashboard-methods.jpg"><br><sub>方法库 · 点水母后触须展开到每篇笔记</sub></td>
+</tr>
+</table>
 
 ## 快速开始
 
